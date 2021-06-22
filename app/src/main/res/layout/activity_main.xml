@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/brain_blue_wallpaper"
+    >
+
+
+
+
+
+        <TextView
+            android:id="@+id/quize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quize"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:background="#1E88E5"/>
+        <EditText
+            android:id="@+id/user_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter"
+            android:textSize="30sp"
+            android:textColor="#D81B60"
+            android:layout_margin="20dp"
+            android:inputType="phone"
+            android:textColorHint="#F60909"
+            />
+
+        <ImageView
+            android:id="@+id/check"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/check_button"
+            android:scaleType="centerInside"
+            />
+
+
+
+</LinearLayout>
